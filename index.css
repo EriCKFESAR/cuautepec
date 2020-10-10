@@ -1,0 +1,47 @@
+#logo{
+    height: 30px;
+    filter: drop-shadow(0 0 10px #C8233355);
+}
+.bg-dark-danger{
+    background: rgb(52,58,64);
+    background: linear-gradient(90deg, rgba(52,58,64,1) 50%, rgba(220,53,69,1) 75%);
+}
+.text-shadow{
+    text-shadow: 0 0 10px #fff5;
+}
+#carrusel-principal .carousel-item:nth-child(1)::before{
+    background: #000 url('resours/carrusel/cuaute1.jpg') center / cover;
+}
+#carrusel-principal .carousel-item:nth-child(2)::before{
+    background: #000 url('resours/carrusel/cuaute2.jpg') center / cover;
+}
+#carrusel-principal .carousel-item:nth-child(3)::before{
+    background: #000 url('resours/carrusel/cuaute3.jpg') center / cover;
+}
+#carrusel-principal .carousel-item:nth-child(4)::before{
+    background: #000 url('resours/carrusel/cuaute4.jpg') center / cover;
+}
+#carrusel-principal .carousel-item::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    content: '';
+    z-index: -1;
+    filter: grayscale(65%) brightness(40%) contrast(125%);
+}
+#carrusel-principal .carousel-item .row{
+    min-height: 500px;
+}
+#sitios-interes img{
+    height: 300px;
+    object-fit: cover;    
+}
+#publicidad{
+    background: #000 url('resours/Noticias.jpg') center / cover;
+    min-height: 400px;
+}
+.cursor-help{
+    cursor: help;
+}
